@@ -23,9 +23,9 @@ public class TestBase {
 
         Configuration.baseUrl = "https://www.open.ru/";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
+        Configuration.browserVersion = System.getProperty("browserVersion", "110.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-        Configuration.remote = System.getProperty("remote", "http://localhost:8080");
+        Configuration.remote = System.getProperty("remote", "http://127.0.0.1:4444/wd/hub");
 
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
