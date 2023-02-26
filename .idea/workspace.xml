@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0f141c-fb17-422d-9395-0da30b074f0e" name="Changes" comment="add allure-notifications-4.2.1.jar.url" />
+    <list default="true" id="2e0f141c-fb17-422d-9395-0da30b074f0e" name="Changes" comment="add  configurations for remote">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar.url" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,13 +86,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/zhankulova.s/IdeaProjects/bank_otkrytie/notifications"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhankulova.s\IdeaProjects\bank_otkrytie\notifications" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zhankulova.s\IdeaProjects\bank_otkrytie\notifications" />
     </key>
@@ -255,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677401897176</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add delete configurations">
+      <created>1677406154452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677406154452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add  configurations for remote">
+      <created>1677407394980</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677407394980</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,6 +284,8 @@
     <MESSAGE value="change configuration" />
     <MESSAGE value="change tag" />
     <MESSAGE value="add allure-notifications-4.2.1.jar.url" />
-    <option name="LAST_COMMIT_MESSAGE" value="add allure-notifications-4.2.1.jar.url" />
+    <MESSAGE value="add delete configurations" />
+    <MESSAGE value="add  configurations for remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  configurations for remote" />
   </component>
 </project>
