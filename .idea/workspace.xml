@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0f141c-fb17-422d-9395-0da30b074f0e" name="Changes" comment="change configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Uitests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Uitests.java" afterDir="false" />
-    </list>
+    <list default="true" id="2e0f141c-fb17-422d-9395-0da30b074f0e" name="Changes" comment="add allure-notifications-4.2.1.jar.url" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +89,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhankulova.s\IdeaProjects\bank_otkrytie\notifications" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.Uitests.preciousMetalNameCheck">
     <configuration name="Uitests.checkNameOfReferencesInInternetbBank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -240,12 +241,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677401265670</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change tag">
+      <created>1677401783263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677401783263</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add allure-notifications-4.2.1.jar.url">
+      <created>1677401897176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677401897176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add tests for project" />
     <MESSAGE value="change configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="change configuration" />
+    <MESSAGE value="change tag" />
+    <MESSAGE value="add allure-notifications-4.2.1.jar.url" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure-notifications-4.2.1.jar.url" />
   </component>
 </project>
