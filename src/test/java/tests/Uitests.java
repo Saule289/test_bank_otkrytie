@@ -244,11 +244,7 @@ public class Uitests extends TestBase {
             pageObjects.openPage();
         });
 
-        step("Закрываем cookies", () -> {
-            pageObjects.closeCookies();
-        });
-
-        step("Скролл до курса валют, выбрать вкладку Драгметаллы", () -> {
+           step("Скролл до курса валют, выбрать вкладку Драгметаллы", () -> {
             $$(".open-ui-tabs-item").findBy(text("Драгметаллы")).click();
         });
 

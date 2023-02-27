@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0f141c-fb17-422d-9395-0da30b074f0e" name="Changes" comment="add  configurations for remote">
+    <list default="true" id="2e0f141c-fb17-422d-9395-0da30b074f0e" name="Changes" comment="add remote url">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Uitests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Uitests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/components/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/components/Attach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +70,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -101,9 +103,38 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zhankulova.s\IdeaProjects\bank_otkrytie\notifications" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="tests.components" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.bank_otkrytie [allureServe]">
-    <configuration name="Uitests.checkNameOfReferencesInInternetbBank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Uitests">
+    <configuration name="Uitests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":remote_test" />
+            <option value="--tests" />
+            <option value="&quot;tests.Uitests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Uitests.checkHeaderNames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.Uitests.checkNameOfReferencesInInternetbBank&quot;" />
+            <option value="&quot;tests.Uitests.checkHeaderNames&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,29 +203,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Uitests.searchInformation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.Uitests.searchInformation&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="bank_otkrytie [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -218,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Uitests" />
+        <item itemvalue="Gradle.Uitests.checkHeaderNames" />
         <item itemvalue="Gradle.bank_otkrytie [allureServe]" />
         <item itemvalue="Gradle.Uitests.preciousMetalNameCheck" />
         <item itemvalue="Gradle.Uitests.chosenCityReflectedInTheRightCornerOfPage" />
-        <item itemvalue="Gradle.Uitests.checkNameOfReferencesInInternetbBank" />
-        <item itemvalue="Gradle.Uitests.searchInformation" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677407394980</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add remote url">
+      <created>1677430915769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677430915769</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,6 +302,7 @@
     <MESSAGE value="add allure-notifications-4.2.1.jar.url" />
     <MESSAGE value="add delete configurations" />
     <MESSAGE value="add  configurations for remote" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  configurations for remote" />
+    <MESSAGE value="add remote url" />
+    <option name="LAST_COMMIT_MESSAGE" value="add remote url" />
   </component>
 </project>
